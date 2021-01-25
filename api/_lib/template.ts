@@ -17,10 +17,10 @@ function getCss(fontSize: string) {
     let radial = 'lightgray';
 
     return `
-    @import url('https://fonts.googleapis.com/css?family=M+PLUS+1p');
+    @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Noto+Sans+JP&display=swap');
 
     @font-face {
-        font-family: 'M PLUS 1p', 'Inter', sans-serif;
+        font-family: 'Inter';
         font-style:  normal;
         font-weight: normal;
         src: url(data:font/woff2;charset=utf-8;base64,${rglr}) format('woff2');
@@ -92,7 +92,7 @@ function getCss(fontSize: string) {
     }
     
     .heading {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Inter', 'Noto Sans JP', 'M PLUS 1p', sans-serif;
         font-size: ${sanitizeHtml(fontSize)};
         font-style: normal;
         color: ${foreground};
