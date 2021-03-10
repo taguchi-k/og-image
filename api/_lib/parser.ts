@@ -46,4 +46,4 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
     }
 }
 
-const defaultImage = 'https://firebasestorage.googleapis.com/v0/b/kentaro-app.appspot.com/o/kentaro_1680x1680.webp?alt=media&token=237b72a9-2d04-40e7-a492-fc9fcb65e92e';
+const defaultImage = 'https://firebasestorage.googleapis.com/v0/b/kentaro-app.appspot.com/o/kentaro_1680x1680.webp?alt=media&token=44872991-f284-4454-8b4e-8d6669c06e04';
